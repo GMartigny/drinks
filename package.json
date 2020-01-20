@@ -1,0 +1,41 @@
+{
+    "name": "drinks",
+    "version": "0.1.0",
+    "description": "List of all mankind alcoholic beverages",
+    "main": "index.js",
+    "keywords": [
+        "alcohol",
+        "beverage",
+        "drunk",
+        "abv",
+        "volume",
+        "data"
+    ],
+    "scripts": {
+        "test": "ava"
+    },
+    "eslintConfig": {
+        "extends": "@gmartigny/eslint-config"
+    },
+    "ava": {
+        "require": [
+            "esm"
+        ]
+    },
+    "author": "GMartigny",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/GMartigny/drinks.git"
+    },
+    "bugs": {
+        "url": "https://github.com/GMartigny/drinks/issues"
+    },
+    "homepage": "https://github.com/GMartigny/drinks#readme",
+    "license": "MIT",
+    "devDependencies": {
+        "@gmartigny/eslint-config": "^1.3.1",
+        "ava": "^3.0.0",
+        "eslint": "^6.8.0",
+        "esm": "^3.2.25"
+    }
+}
